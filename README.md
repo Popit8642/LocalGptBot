@@ -1,2 +1,25 @@
 # LocalGptBot
-A telegram bot with a locally deployed neural network. I tried it for the first time. The neural network also supports Istria. PostgreSQL database
+
+Телеграм-бот с локально развёрнутой нейросетью. Поддерживает историю диалога (контекст), сохраняет данные в PostgreSQL.
+
+## Возможности
+
+- 🤖 Общение с LLM на твоём собственном железе
+- 🧠 Поддержка контекста (нейросеть помнит, о чём вы говорили)
+- 💾 Сохранение истории в базу данных
+- 🛠️ Миграции через Alembic
+
+## Технологии
+
+- Python 3.10+
+- aiogram
+- PostgreSQL
+- SQLAlchemy
+- Alembic
+- Ollama
+
+## Установка и запуск
+
+1. Клонируйте репозиторий
+2. Настройте .env (данные БД)
+3. Запустите бота
